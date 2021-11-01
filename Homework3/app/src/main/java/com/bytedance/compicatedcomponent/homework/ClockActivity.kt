@@ -19,12 +19,13 @@ class ClockActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_clock)
+        clock.findViewById<ClockView>(R.id.clock)
     }
 
     val handler: Handler = Handler(Looper.getMainLooper()) { msg ->
         when(msg.what) {
             UPDATE_SECOND_POINTER -> {
-
+                clock.invalidate()
             }
         }
         true

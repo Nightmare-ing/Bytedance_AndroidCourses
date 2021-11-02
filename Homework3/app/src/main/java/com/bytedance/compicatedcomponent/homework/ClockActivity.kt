@@ -14,20 +14,13 @@ import com.bytedance.compicatedcomponent.homework.ClockView.Companion.UPDATE_SEC
  */
 class ClockActivity : Activity() {
 
-    lateinit var clock: ClockView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_clock)
-        clock.findViewById<ClockView>(R.id.clock)
     }
 
     val handler: Handler = Handler(Looper.getMainLooper()) { msg ->
-        when(msg.what) {
-            UPDATE_SECOND_POINTER -> {
-                clock.invalidate()
-            }
-        }
         true
     }
 }

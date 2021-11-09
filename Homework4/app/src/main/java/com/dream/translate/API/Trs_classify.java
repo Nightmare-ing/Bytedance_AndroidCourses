@@ -1,24 +1,30 @@
 /**
-  * Copyright 2021 bejson.com 
+  * Copyright 2021 json.cn 
   */
-package com.dream.translate.API;
+package cn.json.dict;
+
+import com.google.gson.annotations.SerializedName;
+
+import java.util.Date;
 
 /**
- * Auto-generated: 2021-11-08 13:51:20
+ * Auto-generated: 2021-11-09 21:39:43
  *
- * @author bejson.com (i@bejson.com)
- * @website http://www.bejson.com/java2pojo/
+ * @author json.cn (i@json.cn)
+ * @website http://www.json.cn/java2pojo/
  */
 public class Trs_classify {
 
     private String proportion;
     private String tr;
+
+    public String getProportion() {
+        return proportion;
+    }
+
     public void setProportion(String proportion) {
-         this.proportion = proportion;
-     }
-     public String getProportion() {
-         return proportion;
-     }
+        this.proportion = proportion;
+    }
 
     public void setTr(String tr) {
          this.tr = tr;

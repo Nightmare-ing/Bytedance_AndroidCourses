@@ -1,39 +1,30 @@
 /**
-  * Copyright 2021 bejson.com 
+  * Copyright 2021 json.cn 
   */
-package com.dream.translate.API;
-import java.util.List;
+package cn.json.dict;
 
 /**
- * Auto-generated: 2021-11-08 13:51:20
+ * Auto-generated: 2021-11-09 21:39:43
  *
- * @author bejson.com (i@bejson.com)
- * @website http://www.bejson.com/java2pojo/
+ * @author json.cn (i@json.cn)
+ * @website http://www.json.cn/java2pojo/
  */
 public class Sense {
 
-    private List<String> examples;
-    private List<String> def;
-    private String cat;
-    public void setExamples(List<String> examples) {
-         this.examples = examples;
+    private String lang;
+    private String word;
+    public void setLang(String lang) {
+         this.lang = lang;
      }
-     public List<String> getExamples() {
-         return examples;
-     }
-
-    public void setDef(List<String> def) {
-         this.def = def;
-     }
-     public List<String> getDef() {
-         return def;
+     public String getLang() {
+         return lang;
      }
 
-    public void setCat(String cat) {
-         this.cat = cat;
+    public void setWord(String word) {
+         this.word = word;
      }
-     public String getCat() {
-         return cat;
+     public String getWord() {
+         return word;
      }
 
 }

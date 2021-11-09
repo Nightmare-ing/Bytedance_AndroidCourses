@@ -1,46 +1,58 @@
 /**
-  * Copyright 2021 bejson.com 
+  * Copyright 2021 json.cn 
   */
-package com.dream.translate.API;
+package cn.json.dict;
+
+import com.google.gson.annotations.SerializedName;
 
 /**
- * Auto-generated: 2021-11-08 13:51:20
+ * Auto-generated: 2021-11-09 21:39:43
  *
- * @author bejson.com (i@bejson.com)
- * @website http://www.bejson.com/java2pojo/
+ * @author json.cn (i@json.cn)
+ * @website http://www.json.cn/java2pojo/
  */
 public class Chars {
 
-    private String @s;
-    private String @e;
-    private Aligns aligns;
-    private String @id;
-    public void set@s(String @s) {
-         this.@s = @s;
-     }
-     public String get@s() {
-         return @s;
-     }
+    @SerializedName("@s")
+    private String s;
 
-    public void set@e(String @e) {
-         this.@e = @e;
-     }
-     public String get@e() {
-         return @e;
-     }
+    @SerializedName("@e")
+    private String e;
+
+    private Aligns aligns;
+
+    @SerializedName("@id")
+    private String id;
+
+    public String getS() {
+        return s;
+    }
+
+    public void setS(String s) {
+        this.s = s;
+    }
+
+    public String getE() {
+        return e;
+    }
+
+    public void setE(String e) {
+        this.e = e;
+    }
+
+    public Aligns getAligns() {
+        return aligns;
+    }
 
     public void setAligns(Aligns aligns) {
-         this.aligns = aligns;
-     }
-     public Aligns getAligns() {
-         return aligns;
-     }
+        this.aligns = aligns;
+    }
 
-    public void set@id(String @id) {
-         this.@id = @id;
-     }
-     public String get@id() {
-         return @id;
-     }
+    public String getId() {
+        return id;
+    }
 
+    public void setId(String id) {
+        this.id = id;
+    }
 }

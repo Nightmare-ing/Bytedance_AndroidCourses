@@ -1,22 +1,26 @@
 /**
-  * Copyright 2021 bejson.com 
+  * Copyright 2021 json.cn 
   */
-package com.dream.translate.API;
+package cn.json.dict;
+
+import com.google.gson.annotations.SerializedName;
 
 /**
- * Auto-generated: 2021-11-08 13:51:20
+ * Auto-generated: 2021-11-09 21:39:43
  *
- * @author bejson.com (i@bejson.com)
- * @website http://www.bejson.com/java2pojo/
+ * @author json.cn (i@json.cn)
+ * @website http://www.json.cn/java2pojo/
  */
 public class Tc {
 
-    private String @id;
-    public void set@id(String @id) {
-         this.@id = @id;
-     }
-     public String get@id() {
-         return @id;
-     }
+    @SerializedName("@id")
+    private String id;
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 }

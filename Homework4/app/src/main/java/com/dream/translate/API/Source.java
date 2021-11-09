@@ -1,13 +1,13 @@
 /**
-  * Copyright 2021 bejson.com 
+  * Copyright 2021 json.cn 
   */
-package com.dream.translate.API;
+package cn.json.dict;
 
 /**
- * Auto-generated: 2021-11-08 13:51:20
+ * Auto-generated: 2021-11-09 21:39:43
  *
- * @author bejson.com (i@bejson.com)
- * @website http://www.bejson.com/java2pojo/
+ * @author json.cn (i@json.cn)
+ * @website http://www.json.cn/java2pojo/
  */
 public class Source {
 

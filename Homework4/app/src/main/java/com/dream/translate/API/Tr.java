@@ -1,31 +1,62 @@
 /**
-  * Copyright 2021 bejson.com 
+  * Copyright 2021 json.cn 
   */
-package com.dream.translate.API;
-import java.util.List;
+package cn.json.dict;
 
 /**
- * Auto-generated: 2021-11-08 13:51:20
+ * Auto-generated: 2021-11-09 21:39:43
  *
- * @author bejson.com (i@bejson.com)
- * @website http://www.bejson.com/java2pojo/
+ * @author json.cn (i@json.cn)
+ * @website http://www.json.cn/java2pojo/
  */
 public class Tr {
 
-    private List<Exam> exam;
-    private L l;
-    public void setExam(List<Exam> exam) {
-         this.exam = exam;
+    private String nat;
+    private String chnSent;
+    private String cite;
+    private String docTitle;
+    private String engSent;
+    private String url;
+    public void setNat(String nat) {
+         this.nat = nat;
      }
-     public List<Exam> getExam() {
-         return exam;
+     public String getNat() {
+         return nat;
      }
 
-    public void setL(L l) {
-         this.l = l;
+    public void setChnSent(String chnSent) {
+         this.chnSent = chnSent;
      }
-     public L getL() {
-         return l;
+     public String getChnSent() {
+         return chnSent;
+     }
+
+    public void setCite(String cite) {
+         this.cite = cite;
+     }
+     public String getCite() {
+         return cite;
+     }
+
+    public void setDocTitle(String docTitle) {
+         this.docTitle = docTitle;
+     }
+     public String getDocTitle() {
+         return docTitle;
+     }
+
+    public void setEngSent(String engSent) {
+         this.engSent = engSent;
+     }
+     public String getEngSent() {
+         return engSent;
+     }
+
+    public void setUrl(String url) {
+         this.url = url;
+     }
+     public String getUrl() {
+         return url;
      }
 
 }

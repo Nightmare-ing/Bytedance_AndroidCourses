@@ -1,30 +1,39 @@
 /**
-  * Copyright 2021 bejson.com 
+  * Copyright 2021 json.cn 
   */
-package com.dream.translate.API;
+package cn.json.dict;
+import java.util.List;
 
 /**
- * Auto-generated: 2021-11-08 13:51:20
+ * Auto-generated: 2021-11-09 21:39:43
  *
- * @author bejson.com (i@bejson.com)
- * @website http://www.bejson.com/java2pojo/
+ * @author json.cn (i@json.cn)
+ * @website http://www.json.cn/java2pojo/
  */
 public class Word {
 
-    private String phone;
-    private String return-phrase;
-    public void setPhone(String phone) {
-         this.phone = phone;
+    private List<TransList> transList;
+    private String pos;
+    private List<Wfs> wfs;
+    public void setTransList(List<TransList> transList) {
+         this.transList = transList;
      }
-     public String getPhone() {
-         return phone;
+     public List<TransList> getTransList() {
+         return transList;
      }
 
-    public void setReturn-phrase(String return-phrase) {
-         this.return-phrase = return-phrase;
+    public void setPos(String pos) {
+         this.pos = pos;
      }
-     public String getReturn-phrase() {
-         return return-phrase;
+     public String getPos() {
+         return pos;
+     }
+
+    public void setWfs(List<Wfs> wfs) {
+         this.wfs = wfs;
+     }
+     public List<Wfs> getWfs() {
+         return wfs;
      }
 
 }

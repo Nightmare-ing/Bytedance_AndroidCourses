@@ -1,9 +1,9 @@
 /**
   * Copyright 2021 json.cn 
   */
-package cn.json.dict;
+package com.dream.translate.API;
 
-import com.google.gson.annotations.SerializedName;
+import com.google.gson.annotations.*;
 
 /**
  * Auto-generated: 2021-11-09 21:39:43

@@ -1,7 +1,7 @@
 /**
   * Copyright 2021 json.cn 
   */
-package cn.json.dict;
+package com.dream.translate.API;
 import java.util.List;
 
 /**
